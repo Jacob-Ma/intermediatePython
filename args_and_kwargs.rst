@@ -93,6 +93,9 @@ function. Here's how to do it:
     arg2: two
     arg3: 3
 
+If you have a list of arguments, *args, it's called "argument unpacking", in the same manner **kwargs is called "keyword argument unpacking". * unpacks a list/tuple into elements of list/tuple, for example args = ("two", 3, 5) -> "two", 3, 5.
+** unpacks a dictionary into dictionary key and value items, for example kwargs = {"arg3": 3, "arg2": "two", "arg1": 5} -> "arg3": 3, "arg2": "two", "arg1": 5. 
+
 **Order of using \*args \*\*kwargs and formal args**
 
 So if you want to use all three of these in functions then the order is
